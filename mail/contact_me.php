@@ -24,3 +24,28 @@ $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;         
 ?>
+
+<nav>
+	<ul class="menu">
+		<li><a href="">item1</a></li>
+		<li><a href="">item2</a></li>
+		<li><a href="">item3</a></li>
+	</ul>
+</nav>
+
+<section class="negocio">
+	<p></p>
+</section>
+<header>
+	<nav class="menu">
+		<ul>
+			<li><a href="">item1</a></li>
+			<li><a href="">item2</a></li>
+			<li><a href="">item3</a></li>
+		</ul>
+	</nav>
+</header>
+
+<section class="negocio">
+	<p id="contenido1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat saepe, delectus modi voluptate illo, enim distinctio esse? Eos sequi, tenetur facilis saepe explicabo impedit, officiis dolorum natus ratione necessitatibus voluptas.</p>
+</section>
